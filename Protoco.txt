@@ -1,0 +1,4 @@
+***********************************
+1 - Cuando se publique una prueba se debe asociar el css base.css en el index que esta adentro de la prueba.
+<link href="../css/base.css" rel="stylesheet" type="text/css">
+***********************************
