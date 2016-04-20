@@ -1,0 +1,92 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	background-color: #E6E5E5;
+	font-family: 'open_sansregular';
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#contenedor
+{
+	width: 900px;
+	height: 627px;
+	background-color: white;
+	margin: 0 auto;
+}
+
+header
+{
+	width: 900px;
+	height: 160px;
+	background-image: url("../images/componentes-01.png");
+	background-repeat: no-repeat;
+	border-bottom: #4F2465 5px solid;
+}
+
+.caja
+{
+	width: 400px;
+	height: auto;
+	min-height: 150px;
+	margin: 20px 15px 10px 20px;
+	float: left;
+}
+
+.cajaGuia
+{
+	border-left: #4F2465 5px solid;
+	background-image: url("../images/componentes-02.png");
+	background-repeat: no-repeat;
+}
+
+.cajaGuia img
+{
+	margin: 10px 0px 10px 120px;
+}
+
+.btnGuia
+{
+	width: 122px;
+	height: 120px;
+}
+
+.separacionGrados
+{
+	width: 800px;
+	height: 50px;
+	margin: 0 auto;
+	clear: both;
+	background-image: url("../images/componentes-03.png");
+}
+
+p
+{
+	font-size: 0.9em;
+}
+
+.cajaGrados
+{
+	width: 700px;
+	height: 125px;
+	margin: 0 auto;
+}
+
+.grados
+{
+	width: 125px;
+	height: 125px;
+	margin-right: 10px;
+	float: left;
+}
