@@ -4,6 +4,7 @@
 <meta name='viewport' content='initial-scale = 1, minimum-scale = 1, maximum-scale = 1'/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="x-ua-compatible" content="IE=10">
+<link href="../css/base.css" rel="stylesheet" type="text/css">
 <title></title>
 <style type="text/css">#initialLoading{background:url(assets/htmlimages/loader.gif) no-repeat center center;background-color:#ffffff;position:absolute;margin:auto;top:0;left:0;right:0;bottom:0;z-index:10010;}</style>
 
@@ -40,10 +41,10 @@ function initializeCP()
 				document.write("The content you are trying to view is not supported in the current Document Mode of Internet Explorer. Change the Document Mode to Internet Explorer 9 Standards and try to view the content again.<br>To change the Document Mode, press F12, click Document Mode: <current mode>, and then select Internet Explorer 9 Standards.");
 				return;
 			}
-			window.addEventListener("load",function() 
+			window.addEventListener("load",function()
 			{
-				setTimeout(function() 
-				{					
+				setTimeout(function()
+				{
 					var script = document.createElement('script');
 					script.type = 'text/javascript';
 					script.src = 'assets/js/CPXHRLoader.js';
@@ -75,7 +76,7 @@ function initializeCP()
 				},1);
 			},false);
 		})();
-		
+
 </script>
 <noscript style="text-align:center;font-size:24px;">Enable Javascript support in the browser.</noscript>
 </body>
